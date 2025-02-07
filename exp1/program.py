@@ -39,7 +39,7 @@ nand_perceptron.train(nand_X, nand_y)
 nand_accuracy = nand_perceptron.evaluate(nand_X, nand_y)
 print("NAND Perceptron Accuracy:", nand_accuracy)
 
-# Train Perceptron for XOR
+# Train Perceptron for XOR 
 xor_perceptron = Perceptron(input_size=2)
 xor_perceptron.train(xor_X, xor_y)
 xor_accuracy = xor_perceptron.evaluate(xor_X, xor_y)
