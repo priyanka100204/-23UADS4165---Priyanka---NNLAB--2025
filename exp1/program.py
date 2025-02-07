@@ -16,7 +16,7 @@ class Perceptron:
     def train(self, X, y):
         for _ in range(self.epochs):
             for i in range(len(X)):
-                x_i = np.insert(X[i], 0, 1)  # Adding bias input
+                x_i = np.insert(X[i], 0, 1)  # Adding bias input.
                 y_pred = self.activation(np.dot(self.weights, x_i))
                 error = y[i] - y_pred
                 self.weights += self.lr * error * x_i  # Update rule
