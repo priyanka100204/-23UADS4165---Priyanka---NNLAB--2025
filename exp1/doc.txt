@@ -1,2 +1,3 @@
 learning rate(n) = 0.01
 number of epochs = 1000
+accuracy= 100%
