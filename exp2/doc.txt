@@ -1,3 +1,4 @@
 learning rate = 0.01
 epochs = 100
-accuracy=100%
+accuracy=
+in case of NAND, accuracy is 100% and for XOR , accuracy is 50%
