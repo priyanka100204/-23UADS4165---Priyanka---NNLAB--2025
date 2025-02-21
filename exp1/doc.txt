@@ -1,4 +1,25 @@
+Objective - To implement a simple Perceptron model using NumPy in Python and evaluate its performance on a small dataset.
+
+#Description of the Model :
+
+The Perceptron is a basic linear classifier that updates weights using the Perceptron learning rule. It consists of:
+
+Weight Initialization: Randomly initializes weights and bias.
+Activation Function: A step function that classifies inputs as either 0 or 1.
+Training Process: Adjusts weights based on the difference between actual and predicted values using a learning rate.
+Prediction: Uses the trained weights and bias to classify new inputs.
 learning rate(n) = 0.01
 number of epochs = 1000
-accuracy=
-in case of NAND, accuracy is 100% and for XOR , accuracy is 50%
+
+
+#Python Implementation
+Defined a Perceptron class with training (fit) and prediction (predict) methods.
+Created a simple dataset with two features.
+Trained the model and evaluated accuracy using a confusion matrix.
+
+#Performance Evaluation
+Accuracy: Computed using evaluate(self, X, y).
+accuracy: In case of NAND, accuracy is 100% and for XOR , accuracy is 50%
+
+#My Comments
+Limitations: Works only for linearly separable data. Does not support multi-class classification directly.
