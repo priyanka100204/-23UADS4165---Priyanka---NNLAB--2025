@@ -1,3 +1,18 @@
-learning rate = 0.01
-epochs = 100
-accuracy=100
+#Objective:WAP to implement a multi-layer perceptron (MLP) network with one hidden layer using numpy in Python. Demonstrate that it can learn the XOR Boolean function.
+
+# Model Description:
+Input Layer → 2 neurons (XOR inputs). Hidden Layer → 4 perceptrons with a step function activation. Output Layer → 1 perceptron with a step function activation. Learning Rate → 0.1 Epochs → 100 (reduced for step-by-step tracking) Loss Calculation → Mean Squared Error (MSE). Evaluation Metrics → Accuracy
+
+#Description of the Code:
+Initialization (init) Initializes weights & biases randomly for hidden and output layers. Uses learning rate = 0.1 and epochs = 100.
+Activation (step_function) Uses a step function to classify outputs as 0 or 1.
+Forward Propagation (forward) Computes activations for hidden layer and output layer.
+Backward Propagation (backward) Uses perceptron weight update rule to adjust weights & biases.
+Training (train) Runs 100 epochs, printing loss & accuracy for each epoch.
+Prediction (predict) Uses trained weights to classify new inputs.
+Accuracy Calculation (accuracy) Compares predictions vs. actual values.
+
+#Limitations:
+Step function is non-differentiable, making learning inefficient. Learning is slow due to basic weight update rule.
+
+#Final Model Accuracy: 100.00%
