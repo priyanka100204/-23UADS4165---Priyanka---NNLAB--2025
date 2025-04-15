@@ -1,0 +1,50 @@
+Objective - To build and evaluate a Convolutional Neural Network (CNN) using Keras.
+
+1.Classify images from the Fashion MNIST dataset.
+
+2.Analyze the effect of key hyperparameters: Filter Size, Regularization, Batch Size, Optimization Algorithm
+
+3.Dataset
+Fashion MNIST: 70,000 grayscale images of fashion items (28x28 pixels).
+               60,000 training images.
+               10,000 test images.
+               10 classes such as T-shirt, Trouser, Pullover, Dress, etc.
+
+4.CNN Architecture :
+Conv2D Layer: Extract features from image using different filter sizes.
+
+MaxPooling2D: Downsamples the feature maps.
+
+Flatten: Converts 2D features into 1D.
+
+Dense Layer: Fully connected layer for classification.
+
+Dropout: Prevents overfitting.
+
+Output Layer: 10 neurons with Softmax activation.
+
+5.Evaluation Metrics:
+
+Loss Function: Categorical Crossentropy,
+
+Accuracy: Main evaluation metric,
+
+Validation Accuracy: Used to monitor model generalization,
+
+Test Accuracy: Final evaluation.
+
+6.Conclusion :
+CNNs are highly effective for image classification tasks like Fashion MNIST.
+
+Tuning filter size, regularization, batch size, and optimizer significantly impacts model performance.
+
+Best performance in this experiment was observed using:
+
+Filter size 3x3,
+
+Adam Optimizer,
+
+Batch size 64,
+
+With/without L2 depending on overfitting.
+

@@ -1,0 +1,13 @@
+Filter 3x3 - Test Accuracy: 0.9065
+
+Training: Filter 5x5
+Filter 5x5 - Test Accuracy: 0.9057
+
+Training: L2 Regularization
+L2 Regularization - Test Accuracy: 0.8278
+
+Training: Small Batch Size
+Small Batch Size - Test Accuracy: 0.9100
+
+Training: Optimizer SGD
+Optimizer SGD - Test Accuracy: 0.8363
